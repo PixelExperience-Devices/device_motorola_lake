@@ -12,7 +12,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.audio.calfile5=/vendor/etc/acdbdata/Headset_cal.acdb \
     persist.vendor.audio.calfile6=/vendor/etc/acdbdata/Handset_cal.acdb \
     persist.vendor.audio.default.spkrdc=9929 \
-    persist.vendor.audio.default.rcvrdc=11243
+    persist.vendor.audio.default.rcvrdc=11243 \
+    vendor.voice.path.for.pcm.voip=false \
+
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    use.voice.path.for.pcm.voip=false
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
