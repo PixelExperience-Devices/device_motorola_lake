@@ -47,8 +47,6 @@
 	<usecase name="USECASE_AUDIO_RECORD_LOW_LATENCY" type="in" id="13" />
 	<usecase name="USECASE_VOICEMMODE1_CALL" type="in" id="2" />
 	<usecase name="USECASE_VOICEMMODE1_CALL" type="out" id="2" />
-	<usecase name="USECASE_AUDIO_PLAYBACK_AFE_PROXY" type="out" id="6" />
-	<usecase name="USECASE_AUDIO_RECORD_AFE_PROXY" type="in" id="7" />
 	<usecase name="USECASE_VOICEMMODE2_CALL" type="in" id="19" />
 	<usecase name="USECASE_VOICEMMODE2_CALL" type="out" id="19" />
 	<usecase name="USECASE_AUDIO_PLAYBACK_OFFLOAD" type="out" id="8" />
@@ -59,6 +57,8 @@
 	<usecase name="USECASE_ADSPD_DSP1_TEXT" type="in" id="45" />
 	<usecase name="USECASE_ADSPD_DSP2_TEXT" type="in" id="43" />
 	<usecase name="USECASE_ADSPD_DSP3_TEXT" type="in" id="44" />
+	<usecase name="USECASE_AUDIO_PLAYBACK_AFE_PROXY" type="out" id="6" />
+	<usecase name="USECASE_AUDIO_RECORD_AFE_PROXY" type="in" id="7" />
 </pcm_ids>
 
 <backend_names>

@@ -712,6 +712,7 @@
 
 	<path name="sidetone-handset">
 		<ctl name="Voice Sidetone Enable" value="1" />
+		<ctl name="SLIMBUS_0 LOOPBACK Volume" value="84" />
 	</path>
 
 	<path name="sidetone-hac-handset">
@@ -776,6 +777,7 @@
 		<ctl name="HPOUT1 Digital Volume" id="1" value="98" />
 		<ctl name="HPOUT1 Digital Switch" id="0" value="1" />
 		<ctl name="HPOUT1 Digital Switch" id="1" value="1" />
+		<ctl name="OSPL Rx" value="Disable" />
 	</path>
 
 	<path name="speaker-and-line">
@@ -845,7 +847,7 @@
 	</path>
 
 	<path name="voice-speaker-dmic-ef">
-		<path name="speaker-dmic-endfire" />
+		<path name="mic1" />
 	</path>
 
 	<path name="voice-speaker-mic-hfp">

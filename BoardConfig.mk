@@ -17,28 +17,31 @@
 # Inherit from motorola sdm660-common
 -include device/motorola/sdm660-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/motorola/payton
+DEVICE_PATH := device/motorola/evert
 
 # Assertions
-TARGET_OTA_ASSERT_DEVICE := payton,MotoX4,motox4
+TARGET_OTA_ASSERT_DEVICE := evert,MotoG6Plus,motog6plus
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineageos_payton_defconfig
+TARGET_KERNEL_CONFIG := lineageos_evert_defconfig
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 0x04000000
-BOARD_SYSTEMIMAGE_PARTITION_SIZE := 0x102000000
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 0x0AC000000
+BOARD_VENDORIMAGE_PARTITION_SIZE := 0x039000000
+BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 
 # SELinux
 #BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # Treble
-PRODUCT_SHIPPING_API_LEVEL := 25
+BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
+PRODUCT_FULL_TREBLE_OVERRIDE := true
+PRODUCT_SHIPPING_API_LEVEL := 26
 PRODUCT_COMPATIBILITY_MATRIX_LEVEL_OVERRIDE := 27
 
 # inherit from the proprietary version
--include vendor/motorola/payton/BoardConfigVendor.mk
-
+-include vendor/motorola/evert/BoardConfigVendor.mk

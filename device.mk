@@ -15,7 +15,7 @@
 #
 
 # Vendor blobs
-$(call inherit-product-if-exists, vendor/motorola/payton/payton-vendor.mk)
+$(call inherit-product-if-exists, vendor/motorola/evert/evert-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
@@ -37,7 +37,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_HEIGHT := 2160
 TARGET_SCREEN_WIDTH := 1080
 
 # NFC
@@ -51,4 +51,3 @@ $(call inherit-product, build/target/product/verity.mk)
 
 # Inherit from motorola sdm660-common
 $(call inherit-product, device/motorola/sdm660-common/common.mk)
-

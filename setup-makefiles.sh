@@ -17,7 +17,7 @@
 
 set -e
 
-export DEVICE=payton
+export DEVICE=evert
 export DEVICE_COMMON=sdm660-common
 export VENDOR=motorola
 
