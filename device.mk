@@ -50,6 +50,7 @@ PRODUCT_COPY_FILES += \
 
 # Init
 PRODUCT_PACKAGES += \
+    init.evert.rc \
     fstab.qcom
 
 # NFC
