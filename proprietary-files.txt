@@ -60,6 +60,7 @@ vendor/etc/camera/s5k2l7sa_chromatix.xml
 vendor/lib64/libcdsprpc.so
 vendor/lib/libcdsprpc.so
 vendor/lib/libdepthmapwrapper.so
+vendor/lib/libmotimager_utils.so
 
 # Camera - Chromatix
 vendor/lib/libchromatix_imx386_4k_video_3a.so
