@@ -27,6 +27,8 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_evert_defconfig
+TARGET_KERNEL_SOURCE := kernel/motorola/sdm660
+TARGET_KERNEL_CLANG_COMPILE := true
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 0x04000000
@@ -39,8 +41,13 @@ TARGET_COPY_OUT_VENDOR := vendor
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # Treble
-BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 PRODUCT_SHIPPING_API_LEVEL := 26
+BOARD_VNDK_RUNTIME_DISABLE := true
+
+# Wifi
+WIFI_DRIVER_STATE_CTRL_PARAM := "/sys/kernel/boot_wlan/boot_wlan"
+WIFI_DRIVER_STATE_OFF := 0
+WIFI_DRIVER_STATE_ON := 1
 
 # inherit from the proprietary version
 -include vendor/motorola/evert/BoardConfigVendor.mk
