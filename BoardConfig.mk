@@ -42,7 +42,6 @@ BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # Treble
 PRODUCT_SHIPPING_API_LEVEL := 26
-BOARD_VNDK_RUNTIME_DISABLE := true
 
 # Wifi
 WIFI_DRIVER_STATE_CTRL_PARAM := "/sys/kernel/boot_wlan/boot_wlan"
