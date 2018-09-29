@@ -20,7 +20,7 @@
 DEVICE_PATH := device/motorola/evert
 
 # Assertions
-TARGET_OTA_ASSERT_DEVICE := evert,MotoG6Plus,motog6plus
+TARGET_OTA_ASSERT_DEVICE := evert
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
