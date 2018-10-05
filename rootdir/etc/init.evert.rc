@@ -33,9 +33,6 @@ on init
     setprop ro.hw.imager 12MP
     setprop ro.product.manufacturer Motorola
 
-on boot
-    chown wifi wifi /sys/kernel/boot_wlan/boot_wlan
-
 on property:ro.hw.dualsim=true
     setprop persist.radio.multisim.config dsds
 
