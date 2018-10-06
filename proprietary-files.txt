@@ -429,8 +429,12 @@ vendor/lib64/libubifocus.so
 vendor/lib/libS5k2l7Pdaf.so
 vendor/lib/libS5k2l7PdafCamif.so
 vendor/lib/libmm-qcamera.so
-vendor/lib/libmot_gpu_mapper.so
 lib/libcamera_metadata.so:vendor/lib/libcamera_metadata.so
+
+# Cam from P
+vendor/lib/libmot_gpu_mapper.so|a7477c7604bf9ac8b7b2ead6283eb6ddb80051fa
+vendor/lib/libgui_vendor.so|2289516454cceae50bb3963f9255bc113a24b508
+vendor/lib/libPui.so|2289516454cceae50bb3963f9255bc113a24b508
 
 # Camera - Firmware
 vendor/firmware/cpp_firmware_v1_10_0.fw

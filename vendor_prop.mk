@@ -12,6 +12,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.audio.calfile5=/vendor/etc/acdbdata/common/Headset_cal.acdb \
     persist.audio.calfile6=/vendor/etc/acdbdata/common/Speaker_cal.acdb
 
+# Camera
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.camera.preview.ubwc=0 \
+    video.disable.ubwc=1
+
 # Sensors
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.sensors=evert \
