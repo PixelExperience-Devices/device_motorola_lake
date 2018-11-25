@@ -61,6 +61,11 @@ vendor/lib64/libcdsprpc.so
 vendor/lib/libcdsprpc.so
 vendor/lib/libdepthmapwrapper.so
 vendor/lib/libmotimager_utils.so
+vendor/lib/libmot_lux_standardization.so
+vendor/lib/lib_mot_app6_metadata.so
+vendor/lib/lib_mot_led_calibration.so
+vendor/lib/libmot_afd.so
+vendor/lib/lib_motsensorlistener.so
 
 # Camera - Chromatix
 vendor/lib/libchromatix_imx386_4k_video_3a.so
