@@ -27,7 +27,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_evert_defconfig
-TARGET_KERNEL_SOURCE := kernel/motorola/sdm660
+TARGET_KERNEL_SOURCE := kernel/motorola/msm8998
 TARGET_KERNEL_CLANG_COMPILE := true
 
 # NFC
