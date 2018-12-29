@@ -40,10 +40,3 @@ sed -i "s|/system/lib/hw/|/vendor/lib/hw/|g" "$CAMERA_IMX386"
 # Load ZAF configs from vendor
 ZAF_CORE="$BLOB_ROOT"/vendor/lib/libzaf_core.so
 sed -i "s|/system/etc/zaf|/vendor/etc/zaf|g" "$ZAF_CORE"
-
-# Using in vendor libgui for O cam blobs
-sed -i "s|libgui.so|libPui.so|g" "$BLOB_ROOT"/vendor/lib/libmmcamera_ppeiscore.so
-sed -i "s|libgui.so|libPui.so|g" "$BLOB_ROOT"/vendor/lib/libmmcamera_vstab_module.so
-
-# Using patchelf to add cam shims
-patchelf --add-needed libcamera_hal_shim.so "$BLOB_ROOT"/vendor/lib/hw/camera.sdm660.so

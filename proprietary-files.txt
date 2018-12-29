@@ -146,6 +146,7 @@ vendor/lib/libchromatix_mot_ov8856_cpp_hfr_60.so
 vendor/lib/libchromatix_mot_ov8856_cpp_hfr_90.so
 vendor/lib/libchromatix_mot_ov8856_cpp_liveshot.so
 vendor/lib/libchromatix_mot_ov8856_cpp_preview.so
+vendor/lib/libchromatix_mot_ov8856_cpp_snapshot_custom.so
 vendor/lib/libchromatix_mot_ov8856_cpp_snapshot.so
 vendor/lib/libchromatix_mot_ov8856_cpp_us_chromatix.so
 vendor/lib/libchromatix_mot_ov8856_cpp_video.so
@@ -340,6 +341,7 @@ vendor/lib/libmmcamera_mot_ov5675_eeprom.so
 vendor/lib/libmmcamera_mot_ov5675.so
 vendor/lib/libmmcamera_mot_ov5695_eeprom.so
 vendor/lib/libmmcamera_mot_ov5695.so
+vendor/lib/libmmcamera_mot_ov8856_eeprom.so
 vendor/lib/libmmcamera_mot_ov8856.so
 vendor/lib/libmmcamera_mot_s5k2l7sa_eeprom.so
 vendor/lib/libmmcamera_mot_s5k2l7sa_pdaf.so
@@ -347,6 +349,7 @@ vendor/lib/libmmcamera_mot_s5k2l7sa.so
 vendor/lib/libmmcamera_mot_s5k2l7.so
 vendor/lib/libmmcamera_mot_s5k3p8sp_eeprom.so
 vendor/lib/libmmcamera_mot_s5k3p8sp.so
+vendor/lib/libmmcamera_mot_s5k4h7_eeprom.so
 vendor/lib/libmmcamera_mot_s5k4h7.so
 vendor/lib/libmmcamera_optizoom_lib.so
 vendor/lib/libmmcamera_paaf_lib.so
@@ -435,11 +438,11 @@ vendor/lib/libS5k2l7Pdaf.so
 vendor/lib/libS5k2l7PdafCamif.so
 vendor/lib/libmm-qcamera.so
 lib/libcamera_metadata.so:vendor/lib/libcamera_metadata.so
+lib64/libcamera_metadata.so:vendor/lib64/libcamera_metadata.so
 
 # Cam from P
-vendor/lib/libmot_gpu_mapper.so|a7477c7604bf9ac8b7b2ead6283eb6ddb80051fa
-vendor/lib/libgui_vendor.so|2289516454cceae50bb3963f9255bc113a24b508
-vendor/lib/libPui.so|2289516454cceae50bb3963f9255bc113a24b508
+vendor/lib/libmot_gpu_mapper.so
+vendor/lib/libgui_vendor.so
 
 # Camera - Firmware
 vendor/firmware/cpp_firmware_v1_10_0.fw
@@ -474,7 +477,7 @@ vendor/lib64/libssd.so
 # Fingerprint
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
-vendor/lib64/com.fingerprints.extension@1.0_vendor.so
+vendor/lib64/com.fingerprints.extension@1.0.so
 
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
