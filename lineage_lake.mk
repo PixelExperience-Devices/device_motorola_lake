@@ -26,14 +26,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, device/motorola/lake/device.mk)
 
 # A/B updater
-AB_OTA_UPDATER := true
-
-AB_OTA_PARTITIONS += \
-    boot \
-    dtbo \
-    system \
-    vendor
-
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
     POSTINSTALL_PATH_system=system/bin/otapreopt_script \
