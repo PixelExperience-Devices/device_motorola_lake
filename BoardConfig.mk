@@ -21,6 +21,15 @@ BOARD_USES_KEYMASTER_4 := true
 
 DEVICE_PATH := device/motorola/lake
 
+# A/B updater
+AB_OTA_UPDATER := true
+
+AB_OTA_PARTITIONS += \
+    boot \
+    dtbo \
+    system \
+    vendor
+
 # Assertions
 TARGET_OTA_ASSERT_DEVICE := lake,lake_n
 
