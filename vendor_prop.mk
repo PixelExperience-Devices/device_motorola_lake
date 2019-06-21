@@ -14,8 +14,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.camera.preview.ubwc=0 \
-    video.disable.ubwc=1
+    persist.vendor.camera.expose.aux=1 \
+    vendor.video.disable.ubwc=1
 
 # Sensors
 PRODUCT_PROPERTY_OVERRIDES += \
