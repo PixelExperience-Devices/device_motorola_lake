@@ -437,6 +437,3 @@ vendor/lib64/libkeymasterutils.so
 
 # NFC
 vendor/lib64/libpn553_fw.so
-
-# Thermal
-etc/thermal-engine-evert.conf:vendor/etc/thermal-engine.conf
