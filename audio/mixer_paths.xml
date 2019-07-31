@@ -248,6 +248,7 @@
 	<!-- echo reference -->
 	<ctl name="AUDIO_REF_EC_UL1 MUX" value="None" />
 	<ctl name="VOC_EXT_EC MUX" value="SLIM_1_TX" />
+	<ctl name="EC Reference Channels" value="Zero"/>
 	<ctl name="SPK ASP TX1 Source" value="VMON" />
 	<ctl name="SPK ASP TX2 Source" value="Zero" />
 	<ctl name="SLIMTX5 Input 1" value="AIF1RX1" />
@@ -437,6 +438,7 @@
 
 	<path name="echo-reference">
 		<ctl name="AUDIO_REF_EC_UL1 MUX" value="SLIM_RX" />
+		<ctl name="EC Reference Channels" value="Two"/>
 	</path>
 
 	<path name="echo-reference speaker">
@@ -447,6 +449,21 @@
 	</path>
 
 	<path name="echo-reference bt-sco-wb">
+	</path>
+
+	<path name="echo-reference-voip">
+		<ctl name="AUDIO_REF_EC_UL1 MUX" value="SLIM_RX" />
+		<ctl name="EC Reference Channels" value="Two"/>
+	</path>
+
+	<path name="echo-reference-voip handset">
+		<ctl name="AUDIO_REF_EC_UL10 MUX" value="RX_CDC_DMA_RX_0" />
+		<ctl name="EC Reference Channels" value="One"/>
+	</path>
+
+	<path name="echo-reference-voip headphones">
+		<ctl name="AUDIO_REF_EC_UL10 MUX" value="RX_CDC_DMA_RX_0" />
+		<ctl name="EC Reference Channels" value="Two"/>
 	</path>
 
 	<path name="low-latency-playback">
