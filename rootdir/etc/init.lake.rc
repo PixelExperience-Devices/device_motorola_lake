@@ -38,6 +38,3 @@ on property:ro.vendor.hw.dualsim=true
 
 on property:ro.vendor.hw.dualsim=false
     setprop persist.radio.multisim.config ""
-
-on property:ro.boot.hardware.sku=XT1926-9
-    setprop ro.hw.nfc false
