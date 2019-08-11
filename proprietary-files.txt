@@ -23,7 +23,7 @@ vendor/etc/qdcm_calib_data_mipi_mot_vid_djn_1080p_593.xml
 etc/zaf/zaf_mot_s5k2l7sa.json:vendor/etc/zaf/zaf_mot_s5k2l7sa.json
 etc/zaf/zaf_imx386.json:vendor/etc/zaf/zaf_imx386.json
 etc/zaf/zaf_imx386_mono.json:vendor/etc/zaf/zaf_imx386_mono.json
-lib/hw/libSonyDefocus.so:vendor/lib/hw/libSonyDefocus.so
+vendor/lib/hw/libSonyDefocus.so
 vendor/lib/hw/camera.sdm660.so
 vendor/lib/libhal_dbg.so
 vendor/lib/libactuator_mot_ak7371.so
@@ -31,6 +31,7 @@ vendor/lib/libflash_aw3643_rear.so
 vendor/lib/libflash_aw3643_front.so
 vendor/lib/libflash_pmic.so
 vendor/lib/libgralloc1.so
+vendor/lib/libgui_vendor.so|2289516454cceae50bb3963f9255bc113a24b508
 vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
 vendor/lib/libjpegehw.so
@@ -147,6 +148,7 @@ vendor/lib/libchromatix_mot_ov8856_cpp_video.so
 vendor/lib/libchromatix_mot_ov8856_default_video.so
 vendor/lib/libchromatix_mot_ov8856_hfr_120_3a.so
 vendor/lib/libchromatix_mot_ov8856_hfr_120.so
+vendor/lib/libchromatix_mot_ov8856_postproc.so
 vendor/lib/libchromatix_mot_ov8856_snapshot.so
 vendor/lib/libchromatix_mot_ov8856_zsl_preview_3a.so
 vendor/lib/libchromatix_mot_ov8856_zsl_video_3a.so
@@ -368,17 +370,11 @@ vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
 
 # Camera - Postprocessing
 vendor/lib/libdualcameraddm.so
-lib64/libjni_pacprocessor.so:vendor/lib64/libjni_pacprocessor.so
 vendor/lib64/libdualcameraddm.so
 vendor/lib/libS5k2l7Pdaf.so
 vendor/lib/libS5k2l7PdafCamif.so
 vendor/lib/libmm-qcamera.so
-lib/libcamera_metadata.so:vendor/lib/libcamera_metadata.so
-lib64/libcamera_metadata.so:vendor/lib64/libcamera_metadata.so
-
-# Cam from P
 vendor/lib/libmot_gpu_mapper.so
-vendor/lib/libgui_vendor.so
 
 # Camera - Firmware
 vendor/firmware/cpp_firmware_v1_10_0.fw
