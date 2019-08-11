@@ -15,10 +15,9 @@ vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_n_1080p_624.xml
 
 # Camera
 vendor/etc/camera/camera_config.xml
-vendor/etc/camera/mot_ov5675_chromatix.xml
-vendor/etc/camera/mot_s5k3p8sp_chromatix.xml
-vendor/etc/camera/mot_s5k4h7_chromatix.xml
-vendor/etc/camera/s5k2l7sa_chromatix.xml
+vendor/etc/camera/mot_imx519_chromatix.xml
+vendor/etc/camera/mot_ov12a10_chromatix.xml
+vendor/etc/camera/mot_s5k5e9_chromatix.xml
 vendor/lib/hw/camera.sdm660.so
 vendor/lib/hw/libSonyDefocus.so
 vendor/lib/lib_mot_led_calibration.so
@@ -397,7 +396,6 @@ vendor/lib/libmmcamera_s5k4h7_eeprom.so
 vendor/lib/libmmcamera_s5k4h8_aux.so
 vendor/lib/libmmcamera_s5k4h8_eeprom.so
 vendor/lib/libmmcamera_s5k4h8.so
-vendor/lib/libmmcamera_stillmore_lib.so
 vendor/lib/libmmcamera_sw2d_lib.so
 vendor/lib/libmmcamera_thread_services.so
 vendor/lib/libmmcamera_tintless_algo.so
