@@ -32,7 +32,3 @@ export DEVICE_BRINGUP_YEAR=2019
 ./../../$VENDOR/$DEVICE_COMMON/extract-files.sh $@
 
 BLOB_ROOT="$LINEAGE_ROOT"/vendor/"$VENDOR"/"$DEVICE"/proprietary
-
-# Load ZAF configs from vendor
-ZAF_CORE="$BLOB_ROOT"/vendor/lib/libzaf_core.so
-sed -i "s|/system/etc/zaf|/vendor/etc/zaf|g" "$ZAF_CORE"
