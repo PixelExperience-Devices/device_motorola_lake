@@ -15,7 +15,7 @@
 #
 
 # Vendor blobs
-$(call inherit-product-if-exists, vendor/motorola/evert/evert-vendor.mk)
+$(call inherit-product-if-exists, vendor/motorola/lake/lake-vendor.mk)
 
 # Properties
 -include $(LOCAL_PATH)/vendor_prop.mk
@@ -59,7 +59,7 @@ PRODUCT_BOOT_JARS += qcom.fmradio
 
 # Init
 PRODUCT_PACKAGES += \
-    init.evert.rc
+    init.lake.rc
 
 # NFC
 PRODUCT_PACKAGES += \

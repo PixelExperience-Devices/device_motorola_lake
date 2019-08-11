@@ -23,11 +23,11 @@ if [[ ! -d "$MY_DIR" ]]; then MY_DIR="$PWD"; fi
 
 LINEAGE_ROOT="$MY_DIR"/../../..
 
-export DEVICE=evert
+export DEVICE=lake
 export DEVICE_COMMON=sdm660-common
 export VENDOR=motorola
 
-export DEVICE_BRINGUP_YEAR=2018
+export DEVICE_BRINGUP_YEAR=2019
 
 ./../../$VENDOR/$DEVICE_COMMON/extract-files.sh $@
 

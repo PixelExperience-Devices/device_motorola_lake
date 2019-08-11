@@ -1,5 +1,5 @@
 #
-# vendor props for evert
+# vendor props for lake
 #
 
 # Audio
@@ -19,7 +19,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Sensors
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.hardware.sensors=evert \
+    ro.hardware.sensors=lake \
     ro.vendor.sensors.maghalcal=true \
     ro.vendor.sensors.amd=false \
     ro.vendor.sensors.pmd=false \

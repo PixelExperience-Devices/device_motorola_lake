@@ -17,10 +17,10 @@
 # Inherit from motorola sdm660-common
 -include device/motorola/sdm660-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/motorola/evert
+DEVICE_PATH := device/motorola/lake
 
 # Assertions
-TARGET_OTA_ASSERT_DEVICE := evert
+TARGET_OTA_ASSERT_DEVICE := lake
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
@@ -30,7 +30,7 @@ BOARD_HAVE_QCOM_FM := true
 BOARD_HAS_QCA_FM_SOC := "cherokee"
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineageos_evert_defconfig
+TARGET_KERNEL_CONFIG := lineageos_lake_defconfig
 
 # NFC
 BOARD_NFC_CHIPSET := pn553
@@ -50,4 +50,4 @@ ENABLE_VENDOR_RIL_SERVICE := false
 PRODUCT_SHIPPING_API_LEVEL := 26
 
 # inherit from the proprietary version
--include vendor/motorola/evert/BoardConfigVendor.mk
+-include vendor/motorola/lake/BoardConfigVendor.mk
