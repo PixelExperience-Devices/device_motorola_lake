@@ -30,6 +30,7 @@ BOARD_HAVE_QCOM_FM := true
 BOARD_HAS_QCA_FM_SOC := "cherokee"
 
 # Kernel
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 TARGET_KERNEL_CONFIG := lineageos_lake_defconfig
 BOARD_KERNEL_SEPARATED_DTBO := true
 
