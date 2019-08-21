@@ -11,11 +11,17 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.audio.calfile4=/vendor/etc/acdbdata/Hdmi_cal.acdb \
     persist.vendor.audio.calfile5=/vendor/etc/acdbdata/Headset_cal.acdb \
     persist.vendor.audio.calfile6=/vendor/etc/acdbdata/Handset_cal.acdb \
+    persist.vendor.audio.default.spkrdc=9929 \
+    persist.vendor.audio.default.rcvrdc=11243
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.expose.aux=1 \
     vendor.video.disable.ubwc=1
+
+# FM
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.fm.use_audio_session=true
 
 # Sensors
 PRODUCT_PROPERTY_OVERRIDES += \
