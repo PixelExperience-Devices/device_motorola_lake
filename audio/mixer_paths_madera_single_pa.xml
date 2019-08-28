@@ -425,6 +425,10 @@
 		<path name="deep-buffer-playback bt-sco" />
 	</path>
 
+	<path name="deep-buffer-playback afe-proxy">
+		<ctl name="AFE_PCM_RX Audio Mixer MultiMedia1" value="1" />
+	</path>
+
 	<path name="deep-buffer-playback speaker-and-bt-sco">
 		<path name="deep-buffer-playback speaker" />
 		<path name="deep-buffer-playback bt-sco" />
@@ -470,6 +474,10 @@
 		<path name="low-latency-playback bt-sco" />
 	</path>
 
+	<path name="low-latency-playback afe-proxy">
+		<ctl name="AFE_PCM_RX Audio Mixer MultiMedia5" value="1" />
+	</path>
+
 	<path name="low-latency-playback hdmi">
 		<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia5" value="1" />
 		<ctl name="TERT_MI2S_RX Format" value="S24_LE" />
@@ -504,6 +512,10 @@
 	<path name="compress-offload-playback bt-sco-wb">
 		<ctl name="BT SampleRate" value="KHZ_16" />
 		<path name="compress-offload-playback bt-sco" />
+	</path>
+
+	<path name="compress-offload-playback afe-proxy">
+		<ctl name="AFE_PCM_RX Audio Mixer MultiMedia4" value="1" />
 	</path>
 
 	<path name="compress-offload-playback hdmi">
@@ -553,6 +565,10 @@
 
 	<path name="fm-virtual-record capture-fm">
 		<ctl name="MultiMedia2 Mixer SLIM_8_TX" value="1" />
+	</path>
+
+	<path name="multi-channel-playback afe-proxy">
+		<ctl name="AFE_PCM_RX Audio Mixer MultiMedia2" value="1" />
 	</path>
 
 	<path name="afe-proxy-playback afe-proxy">
@@ -660,6 +676,10 @@
 		<path name="incall-rec-uplink" />
 	</path>
 
+	<path name="incall-rec-uplink afe-proxy">
+		<path name="incall-rec-uplink" />
+	</path>
+
 	<path name="incall-rec-downlink">
 		<ctl name="MultiMedia1 Mixer VOC_REC_DL" value="1" />
 	</path>
@@ -669,6 +689,10 @@
 	</path>
 
 	<path name="incall-rec-downlink bt-sco-wb">
+		<path name="incall-rec-downlink" />
+	</path>
+
+	<path name="incall-rec-downlink afe-proxy">
 		<path name="incall-rec-downlink" />
 	</path>
 
@@ -682,6 +706,10 @@
 	</path>
 
 	<path name="incall-rec-uplink-and-downlink bt-sco-wb">
+		<path name="incall-rec-uplink-and-downlink" />
+	</path>
+
+	<path name="incall-rec-uplink-and-downlink afe-proxy">
 		<path name="incall-rec-uplink-and-downlink" />
 	</path>
 
@@ -699,6 +727,10 @@
 	</path>
 
 	<path name="incall-music-uplink bt-sco-wb">
+		<path name="incall-music-uplink" />
+	</path>
+
+	<path name="incall-music-uplink afe-proxy">
 		<path name="incall-music-uplink" />
 	</path>
 
