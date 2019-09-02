@@ -7,11 +7,15 @@ vendor/etc/acdbdata/Hdmi_cal.acdb
 vendor/etc/acdbdata/Headset_cal.acdb
 vendor/etc/acdbdata/Speaker_cal.acdb
 
-# Display calib
-vendor/etc/qdcm_calib_data_mipi_mot_vid_boe_1080p_624.xml
-vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_624.xml
-vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_h_1080p_624.xml
-vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_n_1080p_624.xml
+# Audio - Speaker Protection
+vendor/firmware/cs35l41-dsp1-diag.wmfw
+vendor/firmware/cs35l41-dsp1-prot.wmfw
+vendor/firmware/cs35l41-dsp1-rcv-cali.bin
+vendor/firmware/cs35l41-dsp1-rcv-prot.bin
+vendor/firmware/cs35l41-dsp1-spk-cali.bin
+vendor/firmware/cs35l41-dsp1-spk-cali-na.bin
+vendor/firmware/cs35l41-dsp1-spk-prot.bin
+vendor/firmware/cs35l41-dsp1-spk-prot-na.bin
 
 # Camera
 vendor/etc/camera/camera_config.xml
@@ -432,6 +436,19 @@ vendor/firmware/cpp_firmware_v1_5_2.fw
 vendor/firmware/cpp_firmware_v1_6_0.fw
 vendor/firmware/cpp_firmware_v1_8_0.fw
 
+# Display Calibrations
+vendor/etc/qdcm_calib_data_mipi_mot_vid_boe_1080p_624.xml
+vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_624.xml
+vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_h_1080p_624.xml
+vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_n_1080p_624.xml
+
+# Display Panels
+vendor/firmware/himax-boe-hx83112a-0a05-208-lake.bin
+vendor/firmware/himax-boe-hx83112a-lake.csv
+vendor/firmware/himax-tianmah-hx83112a-0500-208-lake.bin
+vendor/firmware/himax-tianmah-hx83112a-lake.csv
+vendor/firmware/novatek_ts-tianman-NT36672A-181127-0b-lake.bin
+
 # DRM
 vendor/bin/qseecomd
 vendor/lib/libcppf.so
@@ -448,6 +465,9 @@ vendor/lib64/librpmb.so
 vendor/lib64/libsdedrm.so
 vendor/lib64/libSecureUILib.so
 vendor/lib64/libssd.so
+
+# Haptics - Vibrator
+vendor/firmware/aw869x_haptic.bin
 
 # Fingerprint
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets
@@ -499,3 +519,10 @@ vendor/lib/modules/synaptics_tcm_touch.ko
 
 # NFC
 vendor/lib64/libpn553_fw.so
+
+# Sound Card - Marley
+vendor/firmware/marley-dsp1-ultrasound.bin
+vendor/firmware/marley-dsp1-ultrasound.wmfw
+vendor/firmware/marley-dsp2-aov-frontend.wmfw
+vendor/firmware/marley-dsp2-aov-vrgain.bin
+vendor/firmware/marley-dsp3-aov-control.wmfw
