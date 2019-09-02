@@ -59,7 +59,8 @@ PRODUCT_BOOT_JARS += qcom.fmradio
 
 # Init
 PRODUCT_PACKAGES += \
-    init.lake.rc
+    init.lake.rc \
+    init.oem.panel.sh
 
 # NFC
 PRODUCT_PACKAGES += \
