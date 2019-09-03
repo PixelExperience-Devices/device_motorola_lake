@@ -472,6 +472,12 @@ vendor/firmware/aw869x_haptic.bin
 # Fingerprint
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets.rc
+vendor/etc/init/init.ets.rc
+vendor/lib/libets_fp_et5.so
+vendor/lib/libets_teeclient.so
+vendor/lib/vendor.egistec.hardware.fingerprint@2.0.so
+vendor/lib64/libets_fp_et5.so
+vendor/lib64/libets_teeclient.so
 vendor/lib64/vendor.egistec.hardware.fingerprint@2.0.so
 
 # Gatekeeper
