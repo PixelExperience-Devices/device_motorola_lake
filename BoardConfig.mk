@@ -51,8 +51,5 @@ TARGET_HAS_NO_WLAN_STATS := true
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := false
 
-# Treble
-PRODUCT_SHIPPING_API_LEVEL := 26
-
 # inherit from the proprietary version
 -include vendor/motorola/lake/BoardConfigVendor.mk
