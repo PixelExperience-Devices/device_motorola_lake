@@ -32,3 +32,7 @@ export DEVICE_BRINGUP_YEAR=2019
 ./../../$VENDOR/$DEVICE_COMMON/extract-files.sh $@
 
 BLOB_ROOT="$LINEAGE_ROOT"/vendor/"$VENDOR"/"$DEVICE"/proprietary
+
+# Add uhid group for fingerprint service
+FP_SERVICE_RC="$BLOB_ROOT"/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets.rc
+sed -i "s/input/uhid input/" "$FP_SERVICE_RC"
