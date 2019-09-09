@@ -54,8 +54,5 @@ ENABLE_VENDOR_RIL_SERVICE := false
 # SELinux
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
-# Soong namespaces
-PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
-
 # inherit from the proprietary version
 -include vendor/motorola/lake/BoardConfigVendor.mk
