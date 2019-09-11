@@ -467,6 +467,7 @@ vendor/lib64/libssd.so
 
 # Haptics - Vibrator
 vendor/firmware/aw869x_haptic.bin
+vendor/firmware/aw869x_rtp.bin
 
 # Fingerprint
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets
@@ -500,6 +501,16 @@ vendor/lib64/libkeymasterdeviceutils.so
 vendor/lib64/libkeymasterprovision.so
 vendor/lib64/libkeymasterutils.so
 vendor/lib64/libqtikeymaster4.so
+
+# Misc firmware
+vendor/firmware/crus_sp_rx0.bin
+vendor/firmware/crus_sp_rx1.bin
+vendor/firmware/crus_sp_rx2.bin
+vendor/firmware/crus_sp_rx3.bin
+vendor/firmware/crus_sp_rx4.bin
+vendor/firmware/crus_sp_rx5.bin
+vendor/firmware/crus_sp_rx6.bin
+vendor/firmware/crus_sp_rx7.bin
 
 # NFC
 vendor/lib64/libpn553_fw.so
