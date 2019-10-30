@@ -40,4 +40,7 @@
          -->
     <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
 
+    <!-- Enable system navigation keys. -->
+    <bool name="config_supportSystemNavigationKeys">true</bool>
+
 </resources>
