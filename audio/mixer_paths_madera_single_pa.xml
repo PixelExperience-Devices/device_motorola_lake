@@ -975,6 +975,10 @@
 		<path name="speaker-mic" />
 	</path>
 
+	<path name="external-mic">
+		<path name="headset-mic" />
+	</path>
+
 	<path name="bt-sco-headset">
 	</path>
 
