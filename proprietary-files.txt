@@ -440,6 +440,7 @@ vendor/etc/qdcm_calib_data_mipi_mot_vid_boe_1080p_624.xml
 vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_624.xml
 vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_h_1080p_624.xml
 vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_n_1080p_624.xml
+vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_n_revvl_1080p_624.xml
 
 # Display Panels
 vendor/firmware/himax-boe-hx83112a-0a05-208-lake.bin
