@@ -77,6 +77,7 @@ PRODUCT_MANUFACTURER := Motorola
 PRODUCT_RELEASE_NAME := lake
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=lake
+    PRODUCT_NAME=lake \
+    PRIVATE_BUILD_DESC="lake-user 9 PPWS29.98-111-9 d601 release-keys"
 
-BUILD_FINGERPRINT := motorola/lake/lake:9/PPW29.98-111/bc251:user/release-keys
+BUILD_FINGERPRINT := motorola/lake/lake:9/PPWS29.98-111-9/d601:user/release-keys
