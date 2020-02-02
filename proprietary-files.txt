@@ -418,7 +418,6 @@ vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
 
 # Camera - Postprocessing
 vendor/lib/libmm-qcamera.so
-vendor/lib/libmot_gpu_mapper.so
 vendor/lib/libS5k2l7Pdaf.so
 vendor/lib/libS5k2l7PdafCamif.so
 
