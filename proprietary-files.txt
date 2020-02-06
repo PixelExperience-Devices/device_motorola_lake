@@ -485,7 +485,7 @@ vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 
 # IMS
--priv-app/ims/ims.apk|3a9387919a41e4154243c56aee71039fd7d1f387
+-product/priv-app/ims/ims.apk|54c9f8f49d567082f7d23cee40a54515162dbf90
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
