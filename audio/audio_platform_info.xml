@@ -27,6 +27,7 @@
 	<device name="SND_DEVICE_IN_VOICE_TTY_VCO_HANDSET_MIC" acdb_id="4" />
 	<device name="SND_DEVICE_IN_UNPROCESSED_MIC" acdb_id="11" />
 	<device name="SND_DEVICE_IN_VOICE_REC_DMIC_FLUENCE" acdb_id="35" />
+	<device name="SND_DEVICE_IN_CAMCORDER_MIC" acdb_id="34"/>
 	<device name="SND_DEVICE_IN_VOICE_DMIC" acdb_id="41" />
 	<device name="SND_DEVICE_IN_VOICE_DMIC_TMUS" acdb_id="41" />
 	<device name="SND_DEVICE_IN_UNPROCESSED_STEREO_MIC" acdb_id="43" />
@@ -87,6 +88,10 @@
 <config_params>
 	<param key="input_mic_max_count" value="3"/>
 </config_params>
+
+<device_names>
+	<device name="SND_DEVICE_IN_CAMCORDER_MIC" alias="handset-stereo-dmic-ef"/>
+</device_names>
 
 <microphone_characteristics>
     <microphone valid_mask="31" device_id="builtin_mic_1" type="AUDIO_DEVICE_IN_BUILTIN_MIC" address="bottom" location="AUDIO_MICROPHONE_LOCATION_MAINBODY"
