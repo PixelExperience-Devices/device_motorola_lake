@@ -16,6 +16,9 @@ persist.vendor.audio.default.rcvrdc=11243
 # Bluetooth
 bluetooth.device.default_name=moto g(7) plus
 
+# Fastbootd
+ro.fastbootd.available=true
+
 # Fluence
 persist.vendor.audio.dualmic.config=endfire
 persist.vendor.audio.fluence.audiorec=false
