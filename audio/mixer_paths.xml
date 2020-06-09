@@ -1078,6 +1078,10 @@
 		<path name="dmic-endfire" />
 	</path>
 
+	<path name="handset-stereo-dmic-ef">
+		<path name="speaker-dmic-endfire" />
+	</path>
+
 	<path name="camcorder-mic-bf">
 		<path name="AOV" />
 		<ctl name="SLIM_0_TX Channels" value="Two" />
