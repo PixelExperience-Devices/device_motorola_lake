@@ -88,7 +88,7 @@ void vendor_load_properties()
         property_override("persist.vendor.ims.cam_sensor_delay", "20");
         property_override("persist.vendor.ims.display_delay", "40");
         for (const auto &source : ro_props_default_source_order) {
-            set_ro_build_prop(source, "fingerprint", "motorola/lake_revvl/lake:9/PCWS29.83-56-12/ec5de:user/release-keys");
+            set_ro_build_prop(source, "fingerprint", "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
             set_ro_product_prop(source, "device", "lake_n");
             set_ro_product_prop(source, "model", "REVVLRY+");
             set_ro_product_prop(source, "name", "lake_revvl_n");
@@ -97,7 +97,7 @@ void vendor_load_properties()
         /* moto g(7) plus (Unlocked) */
         property_override("ro.build.description", "lake-user 10 QPW30.61-21 d18ed release-keys");
         for (const auto &source : ro_props_default_source_order) {
-            set_ro_build_prop(source, "fingerprint", "motorola/lake_retail/lake:10/QPW30.61-18/d18ed:user/release-keys");
+            set_ro_build_prop(source, "fingerprint", "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
             set_ro_product_prop(source, "device", "lake");
             set_ro_product_prop(source, "model", "moto g(7) plus");
         }
