@@ -6,22 +6,10 @@
    "branch":      "lineage-17.1"
   },
   {
-    "remote":      "github",
-    "repository":  "TheMuppets/proprietary_vendor_motorola",
-    "target_path": "vendor/motorola",
-    "branch":      "lineage-17.1"
-  },
-  {
-    "remote":      "github",
-    "repository":  "LineageOS/android_external_bson",
-    "target_path": "external/bson",
-    "branch":      "lineage-17.1"
-  },
-  {
-    "remote":      "github",
-    "repository":  "LineageOS/android_system_qcom",
-    "target_path": "system/qcom",
-    "branch":      "lineage-17.1"
+    "repository"  : "vendor_motorola_lake",
+    "target_path" : "vendor/motorola/lake",
+    "branch"      : "ten",
+    "remote"      : "pixel-devices-bitbucket"
   },
   {
     "remote":      "github",
