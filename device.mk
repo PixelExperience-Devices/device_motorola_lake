@@ -64,8 +64,7 @@ PRODUCT_BOOT_JARS += qcom.fmradio
 
 # Init
 PRODUCT_PACKAGES += \
-    init.lake.rc \
-    init.oem.panel.sh
+    init.lake.rc
 
 # MotCamera2
 PRODUCT_PACKAGES += \
