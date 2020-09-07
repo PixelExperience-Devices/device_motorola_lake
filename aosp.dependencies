@@ -16,5 +16,11 @@
     "repository":  "PixelExperience-Devices/device_motorola_sdm660-common",
     "target_path": "device/motorola/sdm660-common",
     "branch":      "eleven"
+  },
+  {
+    "repository"  : "packages_apps_MotCamera2",
+    "target_path" : "packages/apps/MotCamera2",
+    "branch"      : "eleven-denali",
+    "remote"      : "pixel-devices-blobs"
   }
 ]
