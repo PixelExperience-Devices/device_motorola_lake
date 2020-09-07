@@ -9,7 +9,7 @@
     "repository"  : "vendor_motorola_lake",
     "target_path" : "vendor/motorola/lake",
     "branch"      : "ten",
-    "remote"      : "pixel-devices-bitbucket"
+    "remote"      : "pixel-devices-blobs"
   },
   {
     "remote":      "github",
