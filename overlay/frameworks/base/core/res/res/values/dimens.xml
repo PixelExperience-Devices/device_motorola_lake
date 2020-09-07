@@ -28,4 +28,9 @@
     <!-- Total height of QQS (quick_qs_offset_height + 128) -->
     <dimen name="quick_qs_total_height">176.0dip</dimen>
 
+    <!-- Radius of the software rounded corners. -->
+    <dimen name="rounded_corner_radius">103px</dimen>
+
+    <!-- Adjustment for software rounded corners since corners aren't perfectly round. -->
+    <dimen name="rounded_corner_radius_adjustment">19px</dimen>
 </resources>
