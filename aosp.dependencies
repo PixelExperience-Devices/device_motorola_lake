@@ -52,5 +52,11 @@
     "target_path":"vendor/nxp/opensource/pn5xx/hidlimpl",
     "branch":"lineage-17.1-pn5xx",
     "remote":"github"
+  },
+  {
+    "repository"  : "packages_apps_MotCamera2",
+    "target_path" : "packages/apps/MotCamera2",
+    "branch"      : "ten-denali",
+    "remote"      : "pixel-devices-blobs"
   }
 ]

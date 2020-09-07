@@ -67,6 +67,10 @@ PRODUCT_PACKAGES += \
     init.lake.rc \
     init.oem.panel.sh
 
+# MotCamera2
+PRODUCT_PACKAGES += \
+    MotCamera2
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service \
