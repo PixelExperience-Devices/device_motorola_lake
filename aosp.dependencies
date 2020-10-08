@@ -1,9 +1,9 @@
 [
   {
-    "remote":     "github",
-    "repository": "LineageOS/android_kernel_motorola_msm8998",
+    "remote":     "pixel-devices",
+    "repository": "kernel_motorola_sdm660",
    "target_path": "kernel/motorola/msm8998",
-   "branch":      "lineage-17.1"
+   "branch":      "ten-lake"
   },
   {
     "repository"  : "vendor_motorola_lake",
