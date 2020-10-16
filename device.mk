@@ -58,8 +58,6 @@ PRODUCT_PACKAGES += \
     libqcomfm_jni \
     qcom.fmradio
 
-PRODUCT_BOOT_JARS += qcom.fmradio
-
 # Init
 PRODUCT_PACKAGES += \
     init.lake.rc
