@@ -17,17 +17,23 @@
 
 # If we're being sourced by the common script that we called,
 # stop right here. No need to go down the rabbit hole.
+
+function blob_fixup() {
+    case "${1}" in
+
+        # Add uhid group for fingerprint service
+        vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets.rc)
+        sed -i "s/input/uhid input/" "${2}"
+        ;;
+
+   esac
+}
+
 if [ "${BASH_SOURCE[0]}" != "${0}" ]; then
     return
-else
-    MY_DIR="${BASH_SOURCE%/*}"
-    if [ ! -d "${MY_DIR}" ]; then
-        MY_DIR="${PWD}"
-    fi
 fi
 
 set -e
-LINEAGE_ROOT="$MY_DIR"/../../..
 
 # Required!
 export DEVICE=lake
@@ -37,9 +43,3 @@ export VENDOR=motorola
 export DEVICE_BRINGUP_YEAR=2019
 
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
-
-BLOB_ROOT="$LINEAGE_ROOT"/vendor/"${VENDOR}"/"${DEVICE}"/proprietary
-
-# Add uhid group for fingerprint service
-FP_SERVICE_RC="$BLOB_ROOT"/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets.rc
-sed -i "s/input/uhid input/" "$FP_SERVICE_RC"
