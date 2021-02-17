@@ -7,6 +7,19 @@ vendor/etc/acdbdata/Hdmi_cal.acdb
 vendor/etc/acdbdata/Headset_cal.acdb
 vendor/etc/acdbdata/Speaker_cal.acdb
 
+# Audio - ADSPD
+vendor/bin/hw/motorola.hardware.audio.adspd@1.0-service
+vendor/etc/init/motorola.hardware.audio.adspd@1.0-service.rc
+vendor/lib/hw/audio.motvr.default.so
+vendor/lib/hw/sound_trigger.primary.default.so
+vendor/lib/libadspd.so
+vendor/lib/motorola.hardware.audio.adspd@1.0.so
+vendor/lib/motorola.hardware.audio.adspd@1.0-impl.so
+vendor/lib/motorola.hardware.audio.adspd@1.0_vendor.so
+vendor/lib64/libadspd.so
+vendor/lib64/motorola.hardware.audio.adspd@1.0.so
+vendor/lib64/motorola.hardware.audio.adspd@1.0-impl.so
+
 # Audio - Prebuilt
 vendor/lib/hw/audio.primary.sdm660.so
 vendor/lib/vndk/libtinyalsa.so
@@ -14,6 +27,8 @@ vendor/lib/libmotaudioutils.so
 vendor/lib/libsensorndkbridge.so
 vendor/lib/libtinycompress_vendor.so
 vendor/lib/libunshorten.so
+vendor/lib64/vndk/libtinyalsa.so
+vendor/lib64/libtinycompress.so
 
 # Audio - Soundfx
 vendor/lib/soundfx/libmmieffectswrapper.so
