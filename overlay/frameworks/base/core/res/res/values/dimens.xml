@@ -17,6 +17,8 @@
 */
 -->
 <resources>
+    <!-- Default radius of the software rounded corners. -->
+    <dimen name="rounded_corner_radius">111.0px</dimen>
 
     <!-- Height of the status bar -->
     <dimen name="status_bar_height">111.0px</dimen>
