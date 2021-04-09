@@ -15,7 +15,7 @@
 #
 
 # Vendor blobs
-$(call inherit-product-if-exists, vendor/motorola/lake/lake-vendor.mk)
+$(call inherit-product, vendor/motorola/lake/lake-vendor.mk)
 
 # Properties
 -include $(LOCAL_PATH)/vendor_prop.mk
