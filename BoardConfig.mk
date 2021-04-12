@@ -61,4 +61,4 @@ ENABLE_VENDOR_RIL_SERVICE := true
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # inherit from the proprietary version
--include vendor/motorola/lake/BoardConfigVendor.mk
+include vendor/motorola/lake/BoardConfigVendor.mk
