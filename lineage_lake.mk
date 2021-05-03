@@ -70,6 +70,6 @@ PRODUCT_RELEASE_NAME := lake
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=lake \
-    PRIVATE_BUILD_DESC="lake-user 10 QPW30.61-21 cb81e release-keys"
+    PRIVATE_BUILD_DESC="lake-user 10 QPWS30.61-21-18-7 fac4a release-keys"
 
-BUILD_FINGERPRINT := motorola/lake/lake:10/QPW30.61-21/cb81e:user/release-keys
+BUILD_FINGERPRINT := motorola/lake_retail/lake:10/QPWS30.61-21-18-7/fac4a:user/release-keys
