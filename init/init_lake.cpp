@@ -97,9 +97,9 @@ void vendor_load_device_properties()
         }
     } else {
         /* moto g(7) plus (Unlocked) */
-        property_override_device("ro.build.description", "lake-user 10 QPWS30.61-21-18-5 2b2c5 release-keys");
+        property_override_device("ro.build.description", "lake-user 10 QPWS30.61-21-18-7 fac4a release-keys");
         for (const auto &source : ro_props_default_source_order) {
-            set_ro_build_prop(source, "fingerprint", "motorola/lake_retail/lake:10/QPWS30.61-21-18-5/2b2c5:user/release-keys");
+            set_ro_build_prop(source, "fingerprint", "motorola/lake_retail/lake:10/QPWS30.61-21-18-7/fac4a:user/release-keys");
             set_ro_product_prop(source, "device", "lake");
             set_ro_product_prop(source, "model", "moto g(7) plus");
         }
