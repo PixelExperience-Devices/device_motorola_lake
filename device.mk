@@ -21,7 +21,6 @@ $(call inherit-product, vendor/motorola/lake/lake-vendor.mk)
 -include $(LOCAL_PATH)/vendor_prop.mk
 
 PRODUCT_ACTIONABLE_COMPATIBLE_PROPERTY_DISABLE := true
-PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := false
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
