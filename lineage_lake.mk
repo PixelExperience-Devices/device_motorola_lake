@@ -56,11 +56,11 @@ TARGET_RECOVERY_FSTAB := device/motorola/sdm660-common/rootdir/etc/fstab.qcom
 PRODUCT_DEVICE := lake
 PRODUCT_NAME := lineage_lake
 PRODUCT_BRAND := motorola
-PRODUCT_MODEL := Moto G7 Plus
-PRODUCT_MANUFACTURER := Motorola
+PRODUCT_MODEL := moto g(7) plus
+PRODUCT_MANUFACTURER := motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=lake \
+    PRODUCT_NAME=lake_retail \
     PRIVATE_BUILD_DESC="lake-user 10 QPWS30.61-21-18-7 fac4a release-keys"
 
 BUILD_FINGERPRINT := motorola/lake_retail/lake:10/QPWS30.61-21-18-7/fac4a:user/release-keys
