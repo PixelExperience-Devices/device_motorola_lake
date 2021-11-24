@@ -2,13 +2,13 @@
   {
     "repository"  : "vendor_motorola_lake",
     "target_path" : "vendor/motorola/lake",
-    "branch"      : "eleven",
+    "branch"      : "twelve",
     "remote"      : "pixel-devices-blobs"
   },
   {
     "repository"  : "device_motorola_sdm660-common",
     "target_path" : "device/motorola/sdm660-common",
-    "branch"      : "eleven",
+    "branch"      : "twelve",
     "remote"      : "pixel-devices"
   },
   {
