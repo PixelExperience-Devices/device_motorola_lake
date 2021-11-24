@@ -23,10 +23,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.expose.aux=1 \
     vendor.video.disable.ubwc=1
 
-# Display
-PRODUCT_PROPERTY_OVERRIDES += \
-    debug.sf.latch_unsignaled=1
-
 # Fluence
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.audio.dualmic.config=endfire \
