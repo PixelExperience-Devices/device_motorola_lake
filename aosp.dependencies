@@ -8,7 +8,7 @@
   {
     "repository"  : "device_motorola_sdm660-common",
     "target_path" : "device/motorola/sdm660-common",
-    "branch"      : "twelve",
+    "branch"      : "twelve-wip",
     "remote"      : "pixel-devices"
   }
 ]
