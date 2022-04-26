@@ -508,7 +508,6 @@ system/priv-app/MotCamera2/lib/arm64/libzxing-core.so
 system/etc/permissions/com.motorola.motosignature.xml
 system/framework/com.motorola.motosignature.jar
 system/priv-app/MotCamera2/MotCamera2.apk;OVERRIDES=Camera2
-system/etc/permissions/privapp-permissions-com.motorola.camera2.xml
 
 # Display Calibrations
 vendor/etc/qdcm_calib_data_mipi_mot_vid_boe_1080p_624.xml
