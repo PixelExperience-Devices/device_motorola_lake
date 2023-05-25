@@ -10,11 +10,5 @@
     "target_path" : "device/motorola/sdm660-common",
     "branch"      : "thirteen",
     "remote"      : "pixel-devices"
-  },
-  {
-    "repository"  : "packages_apps_MotCamera2",
-    "target_path" : "packages/apps/MotCamera2",
-    "branch"      : "thirteen",
-    "remote"      : "pixel-devices-blobs"
   }
 ]
